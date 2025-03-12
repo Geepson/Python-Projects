@@ -15,9 +15,10 @@ def main():
     time1=time.strftime("%H:%M")
     hour=int(time.strftime("%H"))
     """For Custom Input"""
-    hour=input("Enter Hour :")
-    time1=input("Enter minutes :")
-    time1=hour+":"+time1
+    # hour=input("Enter Hour :")
+    # time1=input("Enter minutes :")
+    # time1=hour+":"+time1
+
     greeting(int(hour),time1)
 
 main()
